@@ -68,10 +68,10 @@ date_list() {
 
 header() {
     if [[ $cflag ]]; then
-        printf "${delimiter}Date${delimiter}Host${delimiter}Host${delimiter}\n"
+        printf "${delimiter}Date${delimiter}Host/ess${delimiter}Host/ess${delimiter}\n"
         printf "${delimiter}----${delimiter}----${delimiter}----${delimiter}\n"
     else
-        printf "Date${delimiter}Host${delimiter}Host\n"
+        printf "Date${delimiter}Host/ess${delimiter}Host/ess\n"
     fi
 }
 
